@@ -1,0 +1,72 @@
+.break-text{
+  word-wrap: break-word;
+}
+
+.xlh1{
+  font-size: $h1-font-size * 1.8
+}
+
+.xlh2{
+  font-size: $h2-font-size * 1.8
+}
+
+.xlh3{
+  font-size: $h3-font-size * 1.8
+}
+
+.xlh4{
+  font-size: $h4-font-size * 1.8
+}
+
+.xlh5{
+  font-size: $h5-font-size * 1.8
+}
+
+.xlh6{
+  font-size: $h6-font-size * 1.8
+}
+
+.home-card-img-top {
+  width: 100%;
+  height: 22vw;
+  object-fit: cover;
+
+  @media screen and (max-width: 576px) {
+    height: 55vw;
+  }
+}
+
+.home-carousel{
+  @media screen and (max-width: 576px) {
+    height: 35vw;
+  }
+}
+
+.campaign-list-img{
+  @media screen and (max-width: 576px) {
+    height: 50vw;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .m-respon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .share-respon{
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .input-respon{
+    margin-top: 20px !important;
+  }
+}
+
+
+

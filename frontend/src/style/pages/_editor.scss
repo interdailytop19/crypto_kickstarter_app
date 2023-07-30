@@ -1,0 +1,12 @@
+/*Editor Styles*/
+.rdw-inline-wrapper {
+	@include display-flex();
+}
+
+.rdw-option-wrapper {
+	margin-bottom: 6px;
+}
+
+.editor-class{
+	word-wrap: break-word !important;
+}
